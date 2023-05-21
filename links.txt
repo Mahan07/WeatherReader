@@ -1,0 +1,5 @@
+Navigation(Bootstrap 5)- https://getbootstrap.com/docs/5.0/components/navbar/
+Bootstrap's CSS and JavaScrip jQuery- https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp
+Font Awesome CDN (version-5.10.0)- https://cdnjs.com/libraries/font-awesome/5.10.0
+Carousel Bootstrap (Slidin effect of Images)- https://getbootstrap.com/docs/5.0/components/carousel/
+Font- https://fonts.google.com/specimen/Piazzolla?query=pia
