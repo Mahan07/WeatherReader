@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>head}}
+    <link rel="stylesheet" href="../css/weatherstyle.css" type="text/css">
+</head>
+<body id="body">
+    {{>navbar}}
+    <!-- main body -->
+    <div class="container-fluid main_header" id="content">
+      <div class="row2">
+        <form class="tempform">
+          <input type="text" id="city" placeholder="Enter your city" autocomplete="off" onkeydown="handleKeyDown(event)">
+          <input type="text" value="search" id="submit" readonly>
+        </form>
+      </div>
+      <div class="result">
+        <div class="top">
+          <p id="day"></p>
+          <p id="date"></p>
+        </div>
+        <div class="bottom">
+          <p id="searched">Get Output Here😀</p>
+          <div class="middle">
+            <p id="temp"></p>
+            <div id="skydiv">
+              <img id="skypic" src="../../images/sun.jpg" alt="" height="70rem" width="70rem">
+              <p id="sky"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  {{>footer}}
+  <script src="../../js/main.js"></script>
+</html>
